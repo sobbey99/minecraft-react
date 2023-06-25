@@ -11,7 +11,6 @@ function actionByKey(key) {
     Digit2: "grass",
     Digit3: "glass",
     Digit4: "wood",
-    Digit4: "wood",
     Digit5: "log",
   };
 
