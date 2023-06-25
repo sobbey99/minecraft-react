@@ -10,7 +10,6 @@ const SPEED = 4;
 const Player = () => {
   const { moveBackward, moveForward, moveLeft, moveRight, jump } =
     useKeyboard();
-  // console.log(Object.entries(actions).filter(([k, v]) => v));
 
   const { camera } = useThree();
   const [ref, api] = useSphere(() => ({
